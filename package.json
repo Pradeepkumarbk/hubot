@@ -1,0 +1,40 @@
+{
+  "name": "mayabot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "nsathyaseelan",
+  "description": "robot for a company",
+  "dependencies": {
+    "@slack/interactive-messages": "^0.2.0",
+    "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
+    "coffee-script": "^1.12.7",
+    "express": "^4.16.2",
+    "github": "^13.0.1",
+    "githubot": "^1.0.1",
+    "gitio2": "^3.1.0",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^0.2.2",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-rules": "^0.1.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.4.0",
+    "lodash": "^4.17.4",
+    "node-env-file": "^0.1.8",
+    "tmp": "0.0.33",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  },
+  "scripts": {
+    "start": "HUBOT_SLACK_TOKEN=xoxb-300059253040-QdZAvcv8YTTOsYN8Sobfd59H ./bin/hubot -a slack"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
